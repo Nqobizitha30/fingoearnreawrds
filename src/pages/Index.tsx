@@ -63,7 +63,7 @@ const Index = () => {
           <p className="text-sm text-foreground font-medium">
             Become a member today to unlock <strong>500</strong> welcome points.
           </p>
-          <a href="https://afflat3d3.com/trk/lnk/39AB3687-53A7-49BB-BD1E-526A59261A4A/?o=30447&c=918277&a=600801&k=C8C7A06F7F70C7DF852F8011DE24F42B&l=34796&s1=ozzyunlock" target="_blank" rel="noopener noreferrer" className="bg-primary text-primary-foreground font-semibold rounded-lg px-8 min-h-[52px] w-fit active:scale-95 transition-transform text-base inline-flex items-center">
+          <a href="https://afflat3d3.com/trk/lnk/39AB3687-53A7-49BB-BD1E-526A59261A4A/?o=30447&c=918277&a=600801&k=C8C7A06F7F70C7DF852F8011DE24F42B&l=34796&s1=fingounlock" target="_blank" rel="noopener noreferrer" className="bg-primary text-primary-foreground font-semibold rounded-lg px-8 min-h-[52px] w-fit active:scale-95 transition-transform text-base inline-flex items-center">
             Join Now
           </a>
         </div>
@@ -84,7 +84,7 @@ const Index = () => {
       <motion.section className="px-5 py-12" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}>
         <h2 className="font-heading text-2xl font-bold text-foreground text-center">Why join us?</h2>
         <p className="text-muted-foreground text-sm text-center mt-2">Learn how you can earn rewards while shaping the future.</p>
-        <a href="https://afflat3d3.com/trk/lnk/39AB3687-53A7-49BB-BD1E-526A59261A4A/?o=30447&c=918277&a=600801&k=C8C7A06F7F70C7DF852F8011DE24F42B&l=34796&s1=ozzyunlock" target="_blank" rel="noopener noreferrer" className="bg-primary text-primary-foreground font-semibold rounded-lg px-6 min-h-[48px] mx-auto mt-4 active:scale-95 transition-transform inline-flex items-center justify-center">Join Now</a>
+        <a href="https://afflat3d3.com/trk/lnk/39AB3687-53A7-49BB-BD1E-526A59261A4A/?o=30447&c=918277&a=600801&k=C8C7A06F7F70C7DF852F8011DE24F42B&l=34796&s1=fingounlock" target="_blank" rel="noopener noreferrer" className="bg-primary text-primary-foreground font-semibold rounded-lg px-6 min-h-[48px] mx-auto mt-4 active:scale-95 transition-transform inline-flex items-center justify-center">Join Now</a>
         <div className="flex flex-col gap-6 mt-8">
           {features.map((f) => (
             <div key={f.title} className="bg-card rounded-xl p-6 text-center">
@@ -126,7 +126,7 @@ const Index = () => {
       <motion.section className="px-5 py-12" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}>
         <h2 className="font-heading text-2xl font-bold text-foreground text-center">How it works?</h2>
         <p className="text-muted-foreground text-sm text-center mt-2">Here's a step-by-step guide to get you started.</p>
-        <a href="https://afflat3d3.com/trk/lnk/39AB3687-53A7-49BB-BD1E-526A59261A4A/?o=30447&c=918277&a=600801&k=C8C7A06F7F70C7DF852F8011DE24F42B&l=34796&s1=ozzyunlock" target="_blank" rel="noopener noreferrer" className="bg-primary text-primary-foreground font-semibold rounded-lg px-6 min-h-[48px] mx-auto mt-4 active:scale-95 transition-transform inline-flex items-center justify-center">Join Now</a>
+        <a href="https://afflat3d3.com/trk/lnk/39AB3687-53A7-49BB-BD1E-526A59261A4A/?o=30447&c=918277&a=600801&k=C8C7A06F7F70C7DF852F8011DE24F42B&l=34796&s1=fingounlock" target="_blank" rel="noopener noreferrer" className="bg-primary text-primary-foreground font-semibold rounded-lg px-6 min-h-[48px] mx-auto mt-4 active:scale-95 transition-transform inline-flex items-center justify-center">Join Now</a>
         <div className="flex flex-col gap-8 mt-8">
           {steps.map((s, i) => (
             <div key={s.title} className="text-center">
@@ -143,7 +143,7 @@ const Index = () => {
         <span className="font-heading text-2xl font-800 text-primary">unlock</span>
         <h2 className="font-heading text-xl font-bold text-foreground mt-4">Ready to start getting rewarded for your opinions?</h2>
         <p className="text-muted-foreground text-sm mt-2">Join Unlock now and become a member of a community that values your voice.</p>
-        <a href="https://afflat3d3.com/trk/lnk/39AB3687-53A7-49BB-BD1E-526A59261A4A/?o=30447&c=918277&a=600801&k=C8C7A06F7F70C7DF852F8011DE24F42B&l=34796&s1=ozzyunlock" target="_blank" rel="noopener noreferrer" className="bg-foreground text-background font-semibold rounded-lg px-8 min-h-[52px] mt-6 active:scale-95 transition-transform inline-flex items-center justify-center">Join Now</a>
+        <a href="https://afflat3d3.com/trk/lnk/39AB3687-53A7-49BB-BD1E-526A59261A4A/?o=30447&c=918277&a=600801&k=C8C7A06F7F70C7DF852F8011DE24F42B&l=34796&s1=fingounlock" target="_blank" rel="noopener noreferrer" className="bg-foreground text-background font-semibold rounded-lg px-8 min-h-[52px] mt-6 active:scale-95 transition-transform inline-flex items-center justify-center">Join Now</a>
         <div className="flex justify-center gap-4 mt-6">
           {["X", "Facebook", "YouTube"].map((s) => (
             <span key={s} className="w-10 h-10 rounded-full bg-card flex items-center justify-center text-xs font-semibold text-muted-foreground">{s[0]}</span>
@@ -168,7 +168,7 @@ const Index = () => {
         animate={{ y: showSticky ? 0 : 100 }}
         transition={{ duration: 0.25 }}
       >
-        <a href="https://afflat3d3.com/trk/lnk/39AB3687-53A7-49BB-BD1E-526A59261A4A/?o=30447&c=918277&a=600801&k=C8C7A06F7F70C7DF852F8011DE24F42B&l=34796&s1=ozzyunlock" target="_blank" rel="noopener noreferrer" className="bg-primary text-primary-foreground font-semibold rounded-lg w-full min-h-[52px] active:scale-[0.98] transition-transform flex items-center justify-center gap-2">
+        <a href="https://afflat3d3.com/trk/lnk/39AB3687-53A7-49BB-BD1E-526A59261A4A/?o=30447&c=918277&a=600801&k=C8C7A06F7F70C7DF852F8011DE24F42B&l=34796&s1=fingounlock" target="_blank" rel="noopener noreferrer" className="bg-primary text-primary-foreground font-semibold rounded-lg w-full min-h-[52px] active:scale-[0.98] transition-transform flex items-center justify-center gap-2">
           Join Now <ChevronRight className="w-4 h-4" />
         </a>
       </motion.div>
